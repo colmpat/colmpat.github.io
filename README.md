@@ -1,5 +1,5 @@
 # About
-This is V2 of the class website for CS360 Intro to Data Visualization @[USFCA](https://www.usfca.edu).
+V2 of my personal website.
 
 ## Technologies
 Built using:
