@@ -1,7 +1,6 @@
-
 @import "../../../styles/colors.module.scss";
 
-.assignment {
+.project {
     // height: 450px;
     color: $mainGrey;
 
@@ -40,7 +39,7 @@
             font-size: 1em;
         }
 
-        .assignmentDescription {
+        .projectDescription {
             padding: 25px;
             width: calc(100% - 50px);
             float: inherit;
@@ -54,14 +53,21 @@
             }
         }
 
+        .buttonWrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+            .button {
+                margin: 0;
+                pointer-events: auto;
+            }
+        }
+
         .tools {
             margin: 0;
             margin-top: 1em;
             color: $mainLightPurple;
-        }
-
-        .button {
-            pointer-events: auto;
         }
 
         &.left {
@@ -70,6 +76,9 @@
             grid-column-start: 1;
             grid-column-end: 8;
             grid-row-start: 1;
+            .button {
+                margin-right: 15px;
+            }
 
         }
         &.right {
@@ -78,6 +87,9 @@
             grid-column-start: 7;
             grid-column-end: -1;
             grid-row-start: 1;
+            .button {
+                margin-left: 15px;
+            }
         }
     }
 

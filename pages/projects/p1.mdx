@@ -1,10 +1,10 @@
-import AssignmentLayout from '../../components/layouts/AssignmentLayout'
-import assignments from '../../data/assignments'
+import ProjectLayout from '../../components/layouts/ProjectLayout'
+import projects from '../../data/projects'
 import Image from 'next/image'
 
-export const meta = assignments.find(a => a.id === 1);
+export const meta = projects.find(a => a.id === 1);
 
-export default ({children}) => <AssignmentLayout meta={meta} >{children}</AssignmentLayout>
+export default ({children}) => <ProjectLayout meta={meta} >{children}</ProjectLayout>
 
 # The European Power Sector (2000-2020)
 

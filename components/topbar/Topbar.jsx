@@ -6,7 +6,7 @@ export default function Topbar() {
     <div className={styles.topbar}>
         <div className={styles.wrapper}>
             <div className={styles.left}>
-                <Link href="/#home">
+                <Link href="/">
                     <a className={styles.logo}>cpl.</a>
                 </Link>
             </div>
@@ -15,11 +15,8 @@ export default function Topbar() {
                     <Link href="/#intro">
                         <a><li>01. <span>Intro</span></li></a>
                     </Link>
-                    <Link href="/#assignments">
-                        <a><li>02. <span>Assignments</span></li></a>
-                    </Link>
-                    <Link href="/sbmap/">
-                        <a><li>03. <span>The Final Project (SBMAP)</span></li></a>
+                    <Link href="/#projects">
+                        <a><li>02. <span>Featured Projects</span></li></a>
                     </Link>
                     <a href="https://resume.io/r/fevBaW1OR" target="_blank" className={styles.button + " button"}>Resume</a>
                 </ul>

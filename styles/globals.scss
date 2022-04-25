@@ -11,6 +11,7 @@ html {
   font-family: 'Ubuntu Mono', monospace;
   scrollbar-width: none;
   background-color: transparent;
+  scroll-behavior: smooth !important;
 }
 *::-webkit-scrollbar {
   display: none;
