@@ -1,6 +1,6 @@
 rm -rf node_modules/.cache
-next build 
-next export
+npm run build 
+npm run export
 cd out
 touch .nojekyll
 git coa "Deploy Next.js to gh-pages"
