@@ -105,3 +105,62 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 567px) {
+    .topbar {
+        .wrapper {
+            .right {
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    a {
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 527px) {
+    .topbar {
+        .wrapper {
+            margin: 0;
+            .left {
+                display: none;
+            }
+            .right {
+                ul {
+                    padding: 0;
+                    width: 100vw;
+                    justify-content: space-around;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .topbar {
+        .wrapper {
+            
+            .left {
+                display: none;
+            }
+            .right {
+                ul {
+                    a {
+                        li {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .button {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

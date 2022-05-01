@@ -27,11 +27,9 @@ export default function Project({ id, title, description, tools, source, live, i
       </div>
 
       <div className={`${styles.imageWrapper} ${id % 2 === 0 ? styles.left : styles.right}`}>
-        <Link href={"/projects/p" + id}>
-          <a className={styles.imageClick}> 
-            <img src={imagePath} layout="fill" className={styles.image}/>
-          </a>
-        </Link>
+        <a href={live ? live : source} target='_blank' className={styles.imageClick}> 
+          <img src={imagePath} layout="fill" className={styles.image}/>
+        </a>
       </div>
     </li>
     
