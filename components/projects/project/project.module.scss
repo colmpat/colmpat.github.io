@@ -82,7 +82,7 @@
 
         }
         &.right {
-            align-items: end;
+            align-items: flex-end;
             text-align: right;
             grid-column-start: 7;
             grid-column-end: -1;
@@ -134,7 +134,7 @@
 
         }
         &.right {
-            align-items: end;
+            align-items: flex-end;
             text-align: right;
             grid-column-start: 1;
             grid-column-end: 8;
