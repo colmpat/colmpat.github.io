@@ -18,7 +18,7 @@ export default function Topbar() {
                     <Link href="/#projects">
                         <a><li>02. <span>Featured Projects</span></li></a>
                     </Link>
-                    <a href="https://resume.io/r/fevBaW1OR" target="_blank" className={styles.button + " button"}>Resume</a>
+                    <a href="https://resume.io/r/aEqNNXM80" target="_blank" className={styles.button + " button"}>Resume</a>
                 </ul>
             </div>
         </div>
